@@ -1,0 +1,19 @@
+{
+  "name": "(nj-http-server-stub)",
+  "version": "0.0.1",
+  "description": "\"a hello world http server stub in node js\"",
+  "main": "(HelloWorldHttpServer.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitzaz-ahmad/HttpServerStub.git"
+  },
+  "author": "\"aitzaz ahmad\"",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/aitzaz-ahmad/HttpServerStub/issues"
+  },
+  "homepage": "https://github.com/aitzaz-ahmad/HttpServerStub#readme"
+}
