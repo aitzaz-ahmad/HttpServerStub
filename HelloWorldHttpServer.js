@@ -5,8 +5,8 @@ const LISTENING_PORT_HTTP  = process.env.PORT || 3000;
 
 const requestHandler = (request, response) => {
   console.log(request.url)
-  response.WriteHead(200, {'Content-Type': 'text/html'});
-  response.Write('Hello World! Node.js server here...');
+  response.writeHead(200, {'Content-Type': 'text/html'});
+  response.write('Hello World! Node.js server here...');
   response.end();
 };
 
