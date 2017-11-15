@@ -4,8 +4,11 @@
   "description": "\"a hello world http server stub in node js\"",
   "main": "HelloWorldHttpServer.js",
   "scripts": {
-	"start": "node HelloWorldHttpServer.js",
+    "start": "node HelloWorldHttpServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.11.4"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/aitzaz-ahmad/HttpServerStub/issues"
   },
-  "homepage": "https://github.com/aitzaz-ahmad/HttpServerStub#readme"
+  "homepage": "https://github.com/aitzaz-ahmad/HttpServerStub#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
 }
