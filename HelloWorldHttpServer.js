@@ -1,7 +1,7 @@
 //HelloWorld Node.js HTTP Server
 
 const http = require('http')
-const LISTENING_PORT_HTTP  = process.env.PORT
+const LISTENING_PORT_HTTP  = process.env.PORT || 3000
 
 const requestHandler = (request, response) => {
   console.log(request.url)
