@@ -1,10 +1,7 @@
 //HelloWorld Node.js HTTP Server
 
 const http = require('http')
-const https = require('https')
-const fStream = require('fs')
-const LISTENING_PORT_HTTP  = 3000
-const LISTENING_PORT_HTTPS = 8000
+const LISTENING_PORT_HTTP  = process.env.PORT
 
 const requestHandler = (request, response) => {
   console.log(request.url)
